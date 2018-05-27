@@ -103,36 +103,36 @@ So, if all areas are approximatly the same color (all light pink) we can conside
 ###### Result
 <div  style="text-align:center">
 <p align="center">
-<img style="height : 300px;" src="/media/compressed/bunny_CircleBoundary.gif">
-<img style="height : 300px;" src="/media/compressed/bunny_CircleBoundary.png">
+<img style="height : 300px;" src="./results/bunny_CircleBoundary.gif">
+<img style="height : 300px;" src="./results/bunny_CircleBoundary.png">
 <br/>Mesh = bunny / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/catHead_CircleBoundary.gif">
-<img style="height : 300px;" src="/media/compressed/catHead_CircleBoundary.png">
+<img style="height : 300px;" src="./results/catHead_CircleBoundary.gif">
+<img style="height : 300px;" src="./results/catHead_CircleBoundary.png">
 <br/>Mesh = cat / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_texture_plan.png">
 <br/>Left : Mesh = cow / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_texture_plan.png">
 <br/>Left : Mesh = gargoyle / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphere_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemisphere_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemisphere_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemisphere_uni_circle_texture_plan.png">
 <br/>Left : Mesh = hemisphere / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_texture_plan.png">
 <br/>Left : Mesh = hemisphereNC / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_texture_plan.png">
 <br/>Left : Mesh = max / Boundary = circle <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_texture_plan.png">
 <br/>Left : Mesh = octo / Boundary = circle <br/>
 
 </p>
@@ -164,7 +164,7 @@ And we create a D matrix constitued by the 2D fixed coordinates of the boundary.
 The function works with all cases/types of boundaries conditions, circle or not.
 
 <p align="center">
-<img style="height : 500px;" src="/media/compressed/schema_4.jpg">
+<img style="height : 500px;" src="./results/schema_4.jpg">
 </p>
 
 ```C++
@@ -342,137 +342,137 @@ if (type == '2')
 <div  style="text-align:center">
 <p align="center">
 
-<img style="height : 300px;" src="/media/compressed/bunny_uni_circle_all_all.gif">
+<img style="height : 300px;" src="./results/bunny_uni_circle_all_all.gif">
 <br/>Mesh = bunny / Boundary = circle / Type : Uniform<br/>
 
-<img style="height : 300px;" src="/media/compressed/bunny_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/bunny_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/bunny_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/bunny_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : Uniform / Colored (Max = 25, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : Uniform / Colored (Max = 25, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX25MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX25MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : Uniform / Colored (Max = 25, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_uni_circle_all_all.gif">
+<img style="height : 300px;" src="./results/cathead_uni_circle_all_all.gif">
 <br/>Mesh = cathead / Boundary = circle / Type : Uniform<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/cathead_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/cathead_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/cathead_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = cat / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = cat / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = cat / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_uni_circle_colorsMAX10MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/o_uni_circle_colorsMAX10MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = cat / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/hemisphere_uni_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/hemisphere_uni_circle_all_all.gif">
   <br/>Mesh = hemisphere / Boundary = circle / Type : Uniform<br/>
-<img style="height : 300px;" src="/media/compressed/hemisphere_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemisphere_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemisphere_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemisphere_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion angle)<br/>
 Distortion (angle, circle) = Max : 2.33684 Min : 0.0212852<br/>
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/hemisphereNC_uni_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/hemisphereNC_uni_circle_all_all.gif">
   <br/>Mesh = hemisphereNC / Boundary = circle / Type : Uniform<br/>
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphereNC / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = hemisphereNCeNC / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = hemisphereNCeNC / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = hemisphereNCeNC / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/octo_uni_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/octo_uni_circle_all_all.gif">
   <br/>Mesh = octo / Boundary = circle / Type : Uniform<br/>
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = Octo / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = Octo_cut2 / Boundary = circle / Type : Uniform / Colored (Max = 150, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = Octo_cut2 / Boundary = circle / Type : Uniform / Colored (Max = 150, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = Octo_cut2 / Boundary = circle / Type : Uniform / Colored (Max = 150, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/cow_uni_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/cow_uni_circle_all_all.gif">
 <br/>Mesh = cow / Boundary = circle / Type : Uniform<br/>
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/cowobj_uni_circle_colorsMAX01MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_colorsMAX0MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/cowobj_uni_circle_colorsMAX01MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_colorsMAX0MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : Uniform / Colored (Max = 0.1, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : Uniform / Colored (Max = 10, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/obj_uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion area)<br/>
 
 
-  <img style="height : 300px;" src="/media/compressed/gargo_uni_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/gargo_uni_circle_all_all.gif">
   <br/>Mesh = gargo / Boundary = circle / Type : Uniform<br/>
-  <img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_texture_mesh.png">
-  <img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_texture_plan.png">
+  <img style="height : 300px;" src="./results/gargoyle__uni_circle_texture_mesh.png">
+  <img style="height : 300px;" src="./results/gargoyle__uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = gargo / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = gargoyle / Boundary = circle / Type : Uniform / Colored (Max = 0.01, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = gargoyle / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX5MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = gargoyle / Boundary = circle / Type : Uniform / Colored (Max = 5, Min = 0, distortion area)<br/>
 
 
-<img style="height : 300px;" src="/media/compressed/max_uni_circle_all_all.gif">
+<img style="height : 300px;" src="./results/max_uni_circle_all_all.gif">
 <br/>Mesh = max / Boundary = circle / Type : Uniform<br/>
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_texture_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : Uniform / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX0MIN0_Distortion_T0_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX0MIN0_Distortion_T0_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : Uniform / Colored (Max = 0.0001, Min = 0, distortion angle)<br/>
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX10MIN0_Distortion_T1_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : Uniform / Colored (Max = 10, Min = 0, distortion length)<br/>
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX10MIN0_Distortion_T2_plan.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX10MIN0_Distortion_T2_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : Uniform / Colored (Max = 10, Min = 0, distortion area)<br/>
 
 </p>
@@ -484,108 +484,108 @@ ______________________________________________________
 <div  style="text-align:center">
 <p align="center">
 
-<img style="height : 300px;" src="/media/compressed/bunny_cotan_circle_all_all.gif">
+<img style="height : 300px;" src="./results/bunny_cotan_circle_all_all.gif">
 <br/>Mesh = bunny / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : Cotan / Textured <br/>
 Distortion (angle, circle) = Max : 345.252 Min : 0.122168 <br/>
 
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion angle)
 <br/>Center: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion length)
 <br/>Right: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_cotan_circle_all_all.gif">
+<img style="height : 300px;" src="./results/cathead_cotan_circle_all_all.gif">
 <br/>Mesh = cathead / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/cathead_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/cathead_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/cathead_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/cathead_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = cathead / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/o_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_cotan_circle_colorsMAX1MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_cotan_circle_colorsMAX3MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/o_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/o_cotan_circle_colorsMAX1MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/o_cotan_circle_colorsMAX3MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cathead / Boundary = circle / Type : Cotan / Colored (Max = 1, Min = 0, distortion angle)
 <br/>Center: Mesh = cathead / Boundary = circle / Type : Cotan / Colored (Max = 1, Min = 0, distortion length)
 <br/>Right: Mesh = cathead / Boundary = circle / Type : Cotan / Colored (Max = 3, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphere_cotan_circle_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphere_cotan_circle_all_all.gif">
 <br/>Mesh = hemisphere / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : Cotan / Textured <br/>
 Distortion (angle, circle) = Max : 2.33684 Min : 0.0212852<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_colorsMAX10MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphere / Boundary = circle / Type : Cotan / Colored (Max = 1, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphere / Boundary = circle / Type : Cotan / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphere / Boundary = circle / Type : Cotan / Colored (Max = 10, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphereNC_cotan_circle_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphereNC_cotan_circle_all_all.gif">
 <br/>Mesh = hemisphereNC / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/hemispherNC_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphereNC / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphereNC / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphereNC / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphereNC / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/octo_cotan_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/octo_cotan_circle_all_all.gif">
 <br/>Mesh = octo / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = octo / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_cotan_circle_colorsMAX25MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = octo / Boundary = circle / Type : Cotan / Colored (Max = 25, Min = 0, distortion angle)
 <br/>Center: Mesh = octo / Boundary = circle / Type : Cotan / Colored (Max = 25, Min = 0, distortion length)
 <br/>Right: Mesh = octo / Boundary = circle / Type : Cotan / Colored (Max = 25, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/cow_cotan_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/cow_cotan_circle_all_all.gif">
 <br/>Mesh = cow / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/obj_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/cowobj_cotan_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_cotan_circle_colorsMAX0MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/cowobj_cotan_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/obj_cotan_circle_colorsMAX0MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/obj_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cow / Boundary = circle / Type : Cotan / Colored (Max = 0.01, Min = 0, distortion angle)
 <br/>Center: Mesh = cow / Boundary = circle / Type : Cotan / Colored (Max = 0.01, Min = 0, distortion length)
 <br/>Right: Mesh = cow / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/gargo_cotan_circle_all_all.gif">
+<img style="height : 300px;" src="./results/gargo_cotan_circle_all_all.gif">
 <br/>Mesh = gargo / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/gargoyle__cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/gargoyle__cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = gargo / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/gargoyle__cotan_circle_colorsMAX0001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__cotan_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/gargoyle__cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__cotan_circle_colorsMAX0001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__cotan_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = gargo / Boundary = circle / Type : Cotan / Colored (Max = 0.001, Min = 0, distortion angle)
 <br/>Center: Mesh = gargo / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = gargo / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-  <img style="height : 300px;" src="/media/compressed/max_cotan_circle_all_all.gif">
+  <img style="height : 300px;" src="./results/max_cotan_circle_all_all.gif">
 <br/>Mesh = max / Boundary = circle / Type : cotan<br/>
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : Cotan / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/maxoff_cotan_circle_colorsMAX00001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/maxoff_cotan_circle_colorsMAX00001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = max / Boundary = circle / Type : Cotan / Colored (Max = 0.001, Min = 0, distortion angle)
 <br/>Center: Mesh = max / Boundary = circle / Type : Cotan / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = max / Boundary = circle / Type : Cotan / Colored (Max = 5, Min = 0, distortion area)<br/>
@@ -628,7 +628,7 @@ We can decompose from the expression of the LSCM as a system to solve, with a (u
 Here are the calculus : 
 
 <p align="center">
-<img style="height : 500px;" src="/media/compressed/schema_3.jpg">
+<img style="height : 500px;" src="./results/schema_3.jpg">
 </p>
 
 Then we just need to compute it from the double area and the gradient matrix.
@@ -678,237 +678,237 @@ Then we just need to compute it from the double area and the gradient matrix.
 <div  style="text-align:center">
 <p align="center">
 
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/bunny_LSCM_circle_all_all.gif">
 <br/> Mesh = bunny / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/bunny_LSCM_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/bunny_LSCM_circle_texture_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/off_lscm_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_lscm_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_lscm_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_circle_colorsMAX150MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion angle)
 <br/>Center: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion length)
 <br/>Right: Mesh = bunny / Boundary = circle / Type : Cotan / Colored (Max = 150, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_2points_all_all.gif">
+<img style="height : 300px;" src="./results/bunny_LSCM_2points_all_all.gif">
 <br/>Right : Mesh = bunny / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_2points_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/bunny_LSCM_2points_texture_plan.png">
+<img style="height : 300px;" src="./results/bunny_LSCM_2points_texture_mesh.png">
+<img style="height : 300px;" src="./results/bunny_LSCM_2points_texture_plan.png">
 <br/>Left & right: Mesh = bunny / Boundary = 2 Points / Type : LSCM / Textured <br/>
 <br/>Distortion for 2 dots : Max : 246.76 Min : 0.0994094<br/>
 
-<img style="height : 300px;" src="/media/compressed/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/off_lscm_freeP2_colorsMAX150MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = bunny / Boundary = 2 Points / Type : Cotan / Colored (Max = 150, Min = 0, distortion angle)
 <br/>Center: Mesh = bunny / Boundary = 2 Points / Type : Cotan / Colored (Max = 150, Min = 0, distortion length)
 <br/>Right: Mesh = bunny / Boundary = 2 Points / Type : Cotan / Colored (Max = 150, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/cathead_LSCM_circle_all_all.gif">
 <br/> Mesh = cathead / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_LSCM_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/cathead_LSCM_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/cathead_LSCM_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/cathead_LSCM_circle_texture_plan.png">
 <br/>Left & right: Mesh = cathead / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/o_lscm_circle_colorsMAX3MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_circle_colorsMAX3MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_circle_colorsMAX3MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_circle_colorsMAX3MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_circle_colorsMAX3MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_circle_colorsMAX3MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cathead / Boundary = circle / Type : LSCM / Colored (Max = 3, Min = 0, distortion angle)
 <br/>Center: Mesh = cathead / Boundary = circle / Type : LSCM / Colored (Max = 3, Min = 0, distortion length)
 <br/>Right: Mesh = cathead / Boundary = circle / Type : LSCM / Colored (Max = 3, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cathead_LSCM_2points_all_all.gif">
+<img style="height : 300px;" src="./results/cathead_LSCM_2points_all_all.gif">
 <br/>Right : Mesh = cathead / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/o_lscm_freeP2_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_freeP2_texture_plan.png">
+<img style="height : 300px;" src="./results/o_lscm_freeP2_texture_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = cathead / Boundary = 2 Points / Type : LSCM / Textured <br/>
 <br/>Distortion for 2 dots : Max : 0.895511 Min : 8.95423e-05<br/>
 
-<img style="height : 300px;" src="/media/compressed/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_freeP2_colorsMAX3MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cathead / Boundary = 2 Points / Type : LSCM / Colored (Max = 3, Min = 0, distortion angle)
 <br/>Center: Mesh = cathead / Boundary = 2 Points / Type : LSCM / Colored (Max = 3, Min = 0, distortion length)
 <br/>Right: Mesh = cathead / Boundary = 2 Points / Type : LSCM / Colored (Max = 3, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphere_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphere_LSCM_circle_all_all.gif">
 <br/> Mesh = hemisphere / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphere / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphere / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphere / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphere_LSCM_2points_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphere_LSCM_2points_all_all.gif">
 <br/>Right : Mesh = hemisphere / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_freeP2_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_freeP2_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_freeP2_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = hemisphere / Boundary = 2 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_freeP2_colorsMAX1MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_freeP2_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_lscm_freeP2_colorsMAX10MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_freeP2_colorsMAX1MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_freeP2_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_lscm_freeP2_colorsMAX10MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphere / Boundary = 2 Points / Type : LSCM / Colored (Max = 1, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphere / Boundary = 2 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphere / Boundary = 2 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphereNC_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphereNC_LSCM_circle_all_all.gif">
 <br/> Mesh = hemisphereNC / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_circle_texture_plan.png">
 <br/>Left & right: Mesh = hemisphereNC / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphereNC / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphereNC / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphereNC / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemisphereNC_LSCM_2points_all_all.gif">
+<img style="height : 300px;" src="./results/hemisphereNC_LSCM_2points_all_all.gif">
 <br/>Right : Mesh = hemisphereNC / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_freeP2_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_freeP2_texture_plan.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_freeP2_texture_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = hemisphereNC / Boundary = 2 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_lscm_freeP2_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = hemisphereNC / Boundary = 2 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphereNC / Boundary = 2 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = hemisphereNC / Boundary = 2 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
 
-<img style="height : 300px;" src="/media/compressed/octo_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/octo_LSCM_circle_all_all.gif">
 <br/> Mesh = Octo / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_circle_texture_plan.png">
 <br/>Left & right: Mesh = Octo / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_circle_colorsMAX40MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = Octo / Boundary = circle / Type : LSCM / Colored (Max = 40, Min = 0, distortion angle)
 <br/>Center: Mesh = Octo / Boundary = circle / Type : LSCM / Colored (Max = 40, Min = 0, distortion length)
 <br/>Right: Mesh = Octo / Boundary = circle / Type : LSCM / Colored (Max = 40, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/octo_LSCM_8Points_all_all.gif">
+<img style="height : 300px;" src="./results/octo_LSCM_8Points_all_all.gif">
 <br/>Right : Mesh = Octo / Boundary = 8 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP2_texture_mesh.png">
-<img style="height : 150px;" src="/media/compressed/Octo_cut2_lscm_freeP2_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP2_texture_mesh.png">
+<img style="height : 150px;" src="./results/Octo_cut2_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = Octo / Boundary = 2 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP8_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP8_texture_plan.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP8_texture_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP8_texture_plan.png">
 <br/>Left & right: Mesh = Octo / Boundary = 8 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T3_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_lscm_freeP8_colorsMAX25MIN0_Distortion_T3_mesh.png">
 <br/>Left: Mesh = Octo / Boundary = 8 Points / Type : LSCM / Colored (Max = 25, Min = 0, distortion angle)
 <br/>Center: Mesh = Octo / Boundary = 8 Points / Type : LSCM / Colored (Max = 25, Min = 0, distortion length)
 <br/>Right: Mesh = Octo / Boundary = 8 Points / Type : LSCM / Colored (Max = 25, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cow_LSCM_circle_all_all.gif">
+<img style="height : 300px;" src="./results/cow_LSCM_circle_all_all.gif">
 <br/> Mesh = cow / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/obj_lscm_circle_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_circle_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_lscm_circle_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_circle_texture_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/cowobj_lscm_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/cowobj_lscm_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cow / Boundary = circle / Type : LSCM / Colored (Max = 0.01, Min = 0, distortion angle)
 <br/>Center: Mesh = cow / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = cow / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 300px;" src="/media/compressed/cow_LSCM_8points_all_all.gif">
+<img style="height : 300px;" src="./results/cow_LSCM_8points_all_all.gif">
 <br/>Right : Mesh = cow / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP2_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP2_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP2_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = 2 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP8_texture_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP8_texture_plan.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP8_texture_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP8_texture_plan.png">
 <br/>Left & right: Mesh = cow / Boundary = 8 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 300px;" src="/media/compressed/cowobj_lscm_freeP8_colorsMAX0001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP8_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/obj_lscm_freeP8_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 300px;" src="./results/cowobj_lscm_freeP8_colorsMAX0001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP8_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/obj_lscm_freeP8_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = cow / Boundary = 8 Points / Type : LSCM / Colored (Max = 0.001, Min = 0, distortion angle)
 <br/>Center: Mesh = cow / Boundary = 8 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = cow / Boundary = 8 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 400px;" src="/media/compressed/gargo_LSCM_circle_all_all.gif">
+<img style="height : 400px;" src="./results/gargo_LSCM_circle_all_all.gif">
 <br/> Mesh = gargo / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_circle_texture_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__cotan_circle_texture_plan.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_circle_texture_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__cotan_circle_texture_plan.png">
 <br/>Left & right: Mesh = gargo / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_circle_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = gargo / Boundary = circle / Type : LSCM / Colored (Max = 0.01, Min = 0, distortion angle)
 <br/>Center: Mesh = gargo / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = gargo / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 400px;" src="/media/compressed/gargo_LSCM_2Points_all_all.gif">
+<img style="height : 400px;" src="./results/gargo_LSCM_2Points_all_all.gif">
 <br/>Right : Mesh = gargo / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_freeP4_texture_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_freeP4_texture_plan.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_freeP4_texture_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_freeP4_texture_plan.png">
 <br/>Left & right: Mesh = gargo / Boundary = 4 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T0_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 400px;" src="/media/compressed/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T2_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T0_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 400px;" src="./results/gargoyle__lscm_freeP4_colorsMAX10MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = gargo / Boundary = 4 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion angle)
 <br/>Center: Mesh = gargo / Boundary = 4 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = gargo / Boundary = 4 Points / Type : LSCM / Colored (Max = 10, Min = 0, distortion area)<br/>
 
-<img style="height : 400px;" src="/media/compressed/max_LSCM_circle_all_all.gif">
+<img style="height : 400px;" src="./results/max_LSCM_circle_all_all.gif">
 <br/> Mesh = max / Boundary = circle / Type : LSCM<br/>
 
-<img style="height : 400px;" src="/media/compressed/off_lscm_circle_texture_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_circle_texture_plan.png">
+<img style="height : 400px;" src="./results/off_lscm_circle_texture_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_circle_texture_plan.png">
 <br/>Left & right: Mesh = max / Boundary = circle / Type : LSCM / Textured <br/>
 
-<img style="height : 400px;" src="/media/compressed/maxoff_lscm_circle_colorsMAX00001MIN0_Distortion_T0_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 400px;" src="./results/maxoff_lscm_circle_colorsMAX00001MIN0_Distortion_T0_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_circle_colorsMAX10MIN0_Distortion_T1_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_circle_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = max / Boundary = circle / Type : LSCM / Colored (Max = 0.0001, Min = 0, distortion angle)
 <br/>Center: Mesh = max / Boundary = circle / Type : LSCM / Colored (Max = 10, Min = 0, distortion length)
 <br/>Right: Mesh = max / Boundary = circle / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
 
-<img style="height : 400px;" src="/media/compressed/max_LSCM_2Points_all_all.gif">
+<img style="height : 400px;" src="./results/max_LSCM_2Points_all_all.gif">
 <br/>Right : Mesh = max / Boundary = 2 Points / Type : LSCM<br/>
 
-<img style="height : 400px;" src="/media/compressed/off_lscm_freeP2_texture_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_freeP2_texture_plan.png">
+<img style="height : 400px;" src="./results/off_lscm_freeP2_texture_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_freeP2_texture_plan.png">
 <br/>Left & right: Mesh = max / Boundary = 2 Points / Type : LSCM / Textured <br/>
 
-<img style="height : 400px;" src="/media/compressed/maxoff_lscm_freeP2_colorsMAX00001MIN0_Distortion_T0_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_freeP2_colorsMAX5MIN0_Distortion_T1_mesh.png">
-<img style="height : 400px;" src="/media/compressed/off_lscm_freeP2_colorsMAX5MIN0_Distortion_T2_mesh.png">
+<img style="height : 400px;" src="./results/maxoff_lscm_freeP2_colorsMAX00001MIN0_Distortion_T0_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_freeP2_colorsMAX5MIN0_Distortion_T1_mesh.png">
+<img style="height : 400px;" src="./results/off_lscm_freeP2_colorsMAX5MIN0_Distortion_T2_mesh.png">
 <br/>Left: Mesh = max / Boundary = 2 Points / Type : LSCM / Colored (Max = 0.0001, Min = 0, distortion angle)
 <br/>Center: Mesh = max / Boundary = 2 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion length)
 <br/>Right: Mesh = max / Boundary = 2 Points / Type : LSCM / Colored (Max = 5, Min = 0, distortion area)<br/>
@@ -1191,25 +1191,25 @@ Some more examples are displayed here. (Min/max solution for presenting the dist
 <div  style="text-align:center">
 <p align="center">
 
-<img style="height : 300px;" src="/media/compressed/bunny_uni_circle_all_all.gif">
+<img style="height : 300px;" src="./results/bunny_uni_circle_all_all.gif">
 <br/>Mesh = bunny / Boundary = circle / Type : Uniform<br/>
 
-<img style="height : 300px;" src="/media/compressed/off_cotan_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/o_lscm_circle_colorsMAX3MIN0_Distortion_T1_mesh.png">
-<img style="height : 300px;" src="/media/compressed/cowobj_lscm_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_cotan_circle_colorsMAX150MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/o_lscm_circle_colorsMAX3MIN0_Distortion_T1_mesh.png">
+<img style="height : 300px;" src="./results/cowobj_lscm_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
 <br/>Left: Mesh = bunny / Boundary = circle / Type : cotan / Colored (Max = 15, Min = 0, distortion length)
 <br/>Center: Mesh = cat / Boundary = circle / Type : LSCM / Colored (Max = 35, Min = 0, distortion length)
 <br/>Right: Mesh = cow / Boundary = circle / Type : LSCM / Colored (Max = 0.01, Min = 0, distortion angle)<br/>
 
-<img style="height : 300px;" src="/media/compressed/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispher_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/gargoyle__uni_circle_colorsMAX001MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispher_cotan_circle_colorsMAX1MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/hemispherNC_uni_circle_colorsMAX5MIN0_Distortion_T0_mesh.png">
 <br/>Left: Mesh = gargoyle / Boundary = circle / Type : uni / Colored (Max = 0.01, Min = 0, distortion angle)
 <br/>Center: Mesh = hemisphere / Boundary = circle / Type : cotan / Colored (Max = 1, Min = 0, distortion angle)
 <br/>Right: Mesh = hemisphereNC / Boundary = circle / Type : uni / Colored (Max = 5, Min = 0, distortion angle)<br/>
 
-<img style="height : 300px;" src="/media/compressed/off_uni_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
-<img style="height : 300px;" src="/media/compressed/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/off_uni_circle_colorsMAX0MIN0_Distortion_T0_mesh.png">
+<img style="height : 300px;" src="./results/Octo_cut2_uni_circle_colorsMAX150MIN0_Distortion_T0_mesh.png">
 <br/>Left: Mesh = max / Boundary = circle / Type : uni / Colored (Max = 0.0001, Min = 0, distortion angle)
 <br/>Right: Mesh = octo / Boundary = circle / Type : uni / Colored (Max = 15, Min = 0, distortion angle)<br/>
 </p>
